@@ -1,10 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "funciones.h"
-int suma(int num1, int num2);
-int resta(int num1,int num2);
-float division(float num1,float num2);
-int multiplicacion(int num1,int num2);
 
 int main()
 {
@@ -40,6 +36,7 @@ int main()
             printf("Ingrese el operando B: ");
             scanf("%d",&num2);
             continue;
+
         case 3:
             resultado=suma(num1,num2);
             printf("El resultado de la suma es %d \n",resultado);
@@ -57,9 +54,22 @@ int main()
             printf("El resultado de la multiplicacion es %d \n",resultado);
             continue;
         case 7:
-
+            resultado=factorial(num1);
+            printf("El factoial es: %d \n",resultado);
             continue;
+
+
         case 8:
+            resultado=suma(num1,num2);
+            printf("El resultado de la suma es %d \n",resultado);
+            resultado=resta(num1,num2);
+            printf("El resultado de la resta es %d \n",resultado);
+            resultadoDivi=division(num1,num2);
+            printf("El resultado de la division es %.2f \n",resultadoDivi);
+            resultado=multiplicacion(num1,num2);
+            printf("El resultado de la multiplicacion es %d \n",resultado);
+             resultado=factorial(num1);
+            printf("El factoial es: %d \n",resultado);
             continue;
         case 9:
             seguir = 'n';
