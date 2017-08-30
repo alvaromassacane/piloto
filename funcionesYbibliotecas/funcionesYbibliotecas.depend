@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1504047375 source:d:\evilmaster\funcionesybibliotecas\funcionesybibliotecas\funbib.c
+
+1504048400 source:d:\evilmaster\funcionesybibliotecas\funcionesybibliotecas\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funbib.h"
+
+1504047375 d:\evilmaster\funcionesybibliotecas\funcionesybibliotecas\funbib.h
+
